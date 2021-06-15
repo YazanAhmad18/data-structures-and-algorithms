@@ -133,12 +133,12 @@ const listFoods = (recipe) => {
   let result = [];
   let food = recipe.ingredients;
   for (let i=0; i< food.length ;i++){
-    food[i]= food[i].substr(food[i].indexOf(" ") + 1);
+    food[i]= food[i].slice(food[i].indexOf(" ") + 1);
   result.push(food[i]);
   }
 
   for (let i=0; i< result.length ;i++){
-  result[i]= result[i].substr(result[i].indexOf(" ") + 1);
+  result[i]= result[i].slice(result[i].indexOf(" ") + 1);
   }
   return result;
 };
