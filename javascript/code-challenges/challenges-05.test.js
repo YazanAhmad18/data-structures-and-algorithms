@@ -28,7 +28,7 @@ const addValues = (arr) => {
   let sumation = arr.reduce((accu, value) => {
     accu += value;
     return accu;
-  }, 0)
+  }, 0);
   return sumation;};
 
 /* ------------------------------------------------------------------------------------------------
@@ -139,7 +139,7 @@ Note: You must use reduce for this challenge. You may not use the built-in .reve
 const reversedString = (str) => {
   let arr = str.split('');
   let all = arr.reduce((accumulator, value) => {
-    return value + accumulator;
+    return value+ accumulator;
   }, '');
   return all;};
 

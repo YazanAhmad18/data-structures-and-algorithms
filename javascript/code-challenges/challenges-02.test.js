@@ -12,8 +12,14 @@ Write a function named raisedToTheThird that takes in an array of numbers and re
 
 const raisedToTheThird = (arr) => {
   let arrnumbers=[];
-  arr.forEach(num => arrnumbers.push(Math.pow(num,3)) );
-  return arrnumbers;};
+  let num1;
+  // arr.forEach(num => arrnumbers.push(Math.pow(num,3)) );
+  arr.forEach((num)=>[
+    num1=Math.pow(num,3),
+    arrnumbers.push(num1)
+  ]);
+  return arrnumbers;
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -48,11 +54,14 @@ For example, twoToThe([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and
 ------------------------------------------------------------------------------------------------ */
 
 const forLoopTwoToThe = (arr) => {
-  let intarray=[];
-  for (let i=0;i<arr.length;i++){
-    intarray.push(Math.pow(2,arr[i]));
-  }
-  return intarray;
+  // let intarray=[];
+  // for (let i=0;i<arr.length;i++){
+  //   intarray.push(Math.pow(2,arr[i]));
+  // }
+
+  let arrays=arr.map(value=>Math.pow(2,value));
+
+  return arrays;
 
 };
 
