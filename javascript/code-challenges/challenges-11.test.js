@@ -170,8 +170,7 @@ Write a function named findShortest that, given the Star Wars data from Challeng
 
 let findShortest = (data) => {
   let red = data[0].name;
-  data
-    .map((obj) => {
+  data.map((obj) => {
       return obj.name;
     })
     .forEach((item) => {
