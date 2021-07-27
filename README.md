@@ -23,5 +23,6 @@ To run your tests
 | Table Of Content                               | Links                                       |
 | ---------------------------------------------- | ------------------------------------------- |
 | Code Challenge: Class 01              | [Array Reverse : Code Challenge](python/array_reverse/README.md)
-| Code Challenge: Class 01              | [Array Shift : Code Challenge](python/array_reverse/README.md)
+| Code Challenge: Class 02              | [Array Shift : Code Challenge](python/shift_array/README.md)
+Code Challenge: Class 03              | [Binary Shearch : Code Challenge](python/binary_search/README.md)
 
